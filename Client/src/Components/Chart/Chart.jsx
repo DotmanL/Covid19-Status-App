@@ -75,6 +75,6 @@ return (
    {country ? BarChart : LineChart}
 
  </div>
-)
-}
+);
+};
 export default Chart;
