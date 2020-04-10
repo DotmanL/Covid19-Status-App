@@ -1,4 +1,11 @@
 .formControl {
     width: 100%;
     margin-bottom: 30px !important;
+    margin: 20px auto !important;
+}
+
+.Typography{
+    margin: 25px 0 !important;
+    font-size: 25px !important;
+    color: white;
 }

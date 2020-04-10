@@ -14,10 +14,12 @@ useEffect(() => {
    setDailyData(await fetchDailyData());
 
  }
- 
- 
+//  console.log(dailyData);
+
  fetchApi();
+ 
 }, []);
+
 
 const LineChart = (
   dailyData.length 

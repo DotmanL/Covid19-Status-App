@@ -1,8 +1,15 @@
 import React from 'react';
 import { Cards, Chart, CountryPicker } from './Components';
-import styles from './App.module.css'
+import './App.css'
 import { fetchData} from './api'
-import covid from './images/covid.png'
+import header from './images/header.jpg'
+
+import Particle from './Components/Particles/Particles'
+ 
+import ReactTypingEffect from 'react-typing-effect';
+
+
+
 
 class App extends  React.Component {
   state = {
@@ -28,13 +35,17 @@ class App extends  React.Component {
   render() {
     const {data, country} =this.state;
     return (
-     <div className={styles.container}>
-       <img className={styles.image} src={covid} alt='COVID-19' />
-       <Cards data= {data} />
+     <div className= "container">
+        <ReactTypingEffect className="staysafe" text='Stay Safe, Stay at Home' />
+          
+       
+       <Particle />
+       <img className="image" src={header} alt='COVID-19' />
+      
        <CountryPicker handleCountryChange={this.handleCountryChange}/>
+       <Cards data= {data} />
        <Chart data ={data} country={country} />
       
-
      </div>  
     )
   }

@@ -1,0 +1,40 @@
+body {
+    background-color: springgreen;
+    opacity: 1;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.image {
+    width: 370px;
+    margin-top: 20px
+}
+
+@media only screen and (max-width: 800px) {
+    .container{
+        margin: 0 10%;
+
+    }
+    .image {
+        width: 100%;
+    }
+}
+
+.staysafe{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 50px;
+    color: white;
+    
+}
+
+@media only screen and (max-width: 800px) {
+    .staysafe{
+        font-size: 35px;
+
+    }
+}
