@@ -27,7 +27,7 @@ return (
   <div>
     <Typography className={styles.Typography} variant="body2" align="center"> Select a country below </Typography>
       <FormControl className={styles.formControl}>
-        <NativeSelect defaultValue="" color="textPrimary"onChange={(e) => handleCountryChange(e.target.value)}>
+        <NativeSelect defaultValue="" onChange={(e) => handleCountryChange(e.target.value)}>
           <option value =''> Global </option>
           {fetchedCountries.map((country, i) => <option key ={i} value={country}> {country} </option> )}
         </NativeSelect>
