@@ -21,6 +21,7 @@
     "express-sslify": "^1.2.0"
   },
   "devDependencies": {
+    "@appnest/readme": "^1.2.7",
     "concurrently": "^4.0.1",
     "nodemon": "^1.19.1"
   }
