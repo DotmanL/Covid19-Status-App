@@ -33,6 +33,23 @@ body {
     
 }
 
+.footer{
+    position: relative;
+    width: 100vw;
+    background-color: black;
+    color: white;
+    text-align: center;
+   
+    opacity: 0.8;
+}
+
+h5{
+    font-size: 15px;
+
+}
+
+
+
 @media only screen and (max-width: 800px) {
     .staysafe{
         font-size: 19px;

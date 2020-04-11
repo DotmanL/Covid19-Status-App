@@ -5,14 +5,14 @@
     background-color: wheat;
     border-radius: 10px;
     border: 5px solid white;
-    margin: 10px 10px 10px 10px; 
+    margin: 5px 10px 10px 10px; 
 }
 @media screen and (max-width: 800px) {
     .container{
     width: 98vw;
     border-radius: 2px;
     border: 2px solid white;
-    margin: 10px 10px 10px 10px; 
+    margin: 5px 10px 10px 10px; 
 
     }
 }

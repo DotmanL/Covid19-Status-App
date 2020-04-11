@@ -45,6 +45,10 @@ class App extends  React.Component {
        <CountryPicker handleCountryChange={this.handleCountryChange}/>
        <Cards data= {data} />
        <Chart data ={data} country={country} />
+       <div className="footer">
+       <h5> Made with React by <a href="https://github.com/DotmanL">DotmanL</a></h5>
+       </div>
+
       
      </div>  
     )
