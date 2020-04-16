@@ -1,5 +1,5 @@
 {
-  "name": "allrange-app-server",
+  "name": "covid19-app-server",
   "version": "1.0.0",
   "engines": {
     "node": "13.0.1",
